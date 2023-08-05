@@ -1,0 +1,17 @@
+<main>
+    <div class="confirmation-container">
+      <h2>Confirmar Registro</h2>
+      <form (ngSubmit)="confirmSignUp()">
+        <div class="form-group">
+          <label for="username">Nombre de usuario</label>
+          <input type="text" id="username" name="username" class="form-control" [(ngModel)]="username" >
+        </div>
+        <div class="form-group">
+          <label for="confirmationCode">Código de confirmación</label>
+          <input type="text" id="confirmationCode" name="confirmationCode" class="form-control" [(ngModel)]="confirmationCode" required>
+        </div>
+        <button type="submit" class="btn btn-primary">Confirmar Registro</button>
+      </form>
+    </div>
+  </main>
+  

@@ -1,0 +1,31 @@
+/* Añade este estilo en tu archivo de estilos global (styles.css) o en tu componente específico */
+
+.header-container {
+    background-color: #3498DB; /* Cambia el color de fondo según tus preferencias */
+    padding: 20px; /* Espaciado interno */
+    text-align: center; /* Centrar el contenido horizontalmente */
+  }
+  
+  h1 {
+    color: white; /* Color de texto para el título */
+    font-size: 32px; /* Tamaño de fuente del título */
+    margin: 0; /* Elimina el margen predeterminado del encabezado */
+  }
+  .logout-button {
+    margin-top: 10px;
+    background-color: #f44336; /* Color de fondo */
+    color: white; /* Color del texto */
+    padding: 10px 20px; /* Espaciado interno */
+    border: none; /* Sin borde */
+    border-radius: 4px; /* Bordes redondeados */
+    cursor: pointer; /* Cambia el cursor al pasar el mouse */
+  }
+  
+  .logout-button:hover {
+    background-color: #d32f2f; /* Cambio de color al pasar el mouse */
+  }
+  
+  
+  
+  
+  
